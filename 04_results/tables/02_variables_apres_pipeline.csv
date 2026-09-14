@@ -1,0 +1,34 @@
+feature,retained
+Age,True
+First sexual intercourse,True
+Number of sexual partners,True
+Num of pregnancies,True
+Smokes (years),True
+Smokes (packs/year),True
+Hormonal Contraceptives (years),True
+IUD (years),True
+STDs (number),True
+STDs: Number of diagnosis,True
+Smokes,True
+Hormonal Contraceptives,True
+IUD,True
+STDs,True
+STDs:condylomatosis,True
+STDs:cervical condylomatosis,False
+STDs:vaginal condylomatosis,True
+STDs:vulvo-perineal condylomatosis,True
+STDs:syphilis,True
+STDs:pelvic inflammatory disease,False
+STDs:genital herpes,True
+STDs:molluscum contagiosum,False
+STDs:AIDS,False
+STDs:HIV,True
+STDs:Hepatitis B,False
+STDs:HPV,True
+missingindicator_Number of sexual partners,True
+missingindicator_First sexual intercourse,True
+missingindicator_Num of pregnancies,True
+missingindicator_Smokes,True
+missingindicator_Hormonal Contraceptives,True
+missingindicator_IUD,True
+missingindicator_STDs,True

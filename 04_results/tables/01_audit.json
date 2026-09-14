@@ -1,0 +1,11 @@
+{
+  "rows": 858,
+  "columns": 36,
+  "positives": 55,
+  "exact_duplicates": 23,
+  "missing_cells": 3622,
+  "complete_all36": 59,
+  "complete_core26": 668,
+  "age_conflicts": 2,
+  "sha256": "8df193ad5c9ff4288fb4c401eef70dcd2cbda404ce7f82ac74c68cfc960ab063"
+}

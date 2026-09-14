@@ -1,0 +1,21 @@
+{
+  "winner": "Foret",
+  "thresholds": {
+    "Base": 0.5,
+    "Logistique": 0.07813243225082121,
+    "Foret": 0.11550685675240874
+  },
+  "parameters": {
+    "Logistique": {
+      "model__C": 1.0,
+      "model__class_weight": null,
+      "pre__num__impute__strategy": "mean"
+    },
+    "Foret": {
+      "model__class_weight": null,
+      "model__min_samples_leaf": 5,
+      "pre__num__impute__strategy": "median"
+    }
+  },
+  "selection": "Average precision moyenne des 5 plis de d\u00e9veloppement"
+}

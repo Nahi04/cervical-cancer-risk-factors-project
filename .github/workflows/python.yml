@@ -1,0 +1,17 @@
+name: Analyse Python reproductible
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  analysis:
+    runs-on: ubuntu-latest
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python 01_scripts/run_project.py
+      - run: python -m unittest discover -s 01_scripts/tests -v

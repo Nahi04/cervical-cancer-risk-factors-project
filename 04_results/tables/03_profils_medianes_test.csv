@@ -1,0 +1,6 @@
+cluster,Age,First sexual intercourse,Number of sexual partners,Num of pregnancies,Smokes (years),Hormonal Contraceptives (years),IUD (years),STDs (number)
+1,21.0,16.0,2.0,1.0,0.0,0.0,0.0,0.0
+2,30.0,17.0,2.0,3.0,0.0,3.0,0.0,0.0
+3,30.0,16.0,3.0,3.0,0.0,0.5,6.0,0.0
+4,26.0,16.0,3.0,2.0,8.0,0.625,0.0,0.0
+5,27.0,17.0,2.0,2.0,0.0,0.16,0.0,2.0

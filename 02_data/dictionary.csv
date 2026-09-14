@@ -1,0 +1,37 @@
+variable,definition,type,missing_n,missing_pct,min,max,role_supervise,choix,clustering
+Age,Âge déclaré (ans),numérique,0,0.0,13.0,84.0,Prédicteur candidat,Numérique ; âge conservé,True
+Number of sexual partners,Nombre déclaré de partenaires sexuels,numérique,26,3.0303030303030303,1.0,28.0,Prédicteur candidat,Numérique ; log1p,True
+First sexual intercourse,Âge déclaré au premier rapport (ans),numérique,7,0.8158508158508158,10.0,32.0,Prédicteur candidat,Numérique ; âge conservé,True
+Num of pregnancies,Nombre de grossesses,numérique,56,6.526806526806526,0.0,11.0,Prédicteur candidat,Numérique ; log1p,True
+Smokes,Indicateur de tabagisme,binaire,13,1.5151515151515151,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+Smokes (years),Durée de tabagisme (ans),numérique,13,1.5151515151515151,0.0,37.0,Prédicteur candidat,Numérique ; log1p,True
+Smokes (packs/year),Mesure de consommation libellée packs/year ; ne pas assimiler sans preuve à des paquets-années,numérique,13,1.5151515151515151,0.0,37.0,Prédicteur candidat,Numérique ; log1p,False
+Hormonal Contraceptives,Indicateur de contraception hormonale,binaire,108,12.587412587412588,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+Hormonal Contraceptives (years),Durée de contraception hormonale (ans),numérique,108,12.587412587412588,0.0,30.0,Prédicteur candidat,Numérique ; log1p,True
+IUD,Indicateur de dispositif intra-utérin (DIU),binaire,117,13.636363636363635,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+IUD (years),Durée d'utilisation du DIU (ans),numérique,117,13.636363636363635,0.0,19.0,Prédicteur candidat,Numérique ; log1p,True
+STDs,Indicateur d'infections sexuellement transmissibles (IST),binaire,105,12.237762237762238,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+STDs (number),Nombre d'IST déclaré,numérique,105,12.237762237762238,0.0,4.0,Prédicteur candidat,Numérique ; log1p,True
+STDs:condylomatosis,Indicateur de condylomatose,binaire,105,12.237762237762238,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+STDs:cervical condylomatosis,Indicateur de condylomatose cervicale,binaire,105,12.237762237762238,0.0,0.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+STDs:vaginal condylomatosis,Indicateur de condylomatose vaginale,binaire,105,12.237762237762238,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+STDs:vulvo-perineal condylomatosis,Indicateur de condylomatose vulvo-périnéale,binaire,105,12.237762237762238,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+STDs:syphilis,Indicateur de syphilis,binaire,105,12.237762237762238,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+STDs:pelvic inflammatory disease,Indicateur de maladie inflammatoire pelvienne,binaire,105,12.237762237762238,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+STDs:genital herpes,Indicateur d'herpès génital,binaire,105,12.237762237762238,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+STDs:molluscum contagiosum,Indicateur de molluscum contagiosum,binaire,105,12.237762237762238,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+STDs:AIDS,Indicateur de sida,binaire,105,12.237762237762238,0.0,0.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+STDs:HIV,Indicateur d'infection par le VIH,binaire,105,12.237762237762238,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+STDs:Hepatitis B,Indicateur d'hépatite B,binaire,105,12.237762237762238,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+STDs:HPV,Indicateur d'HPV dans le bloc IST,binaire,105,12.237762237762238,0.0,1.0,Prédicteur candidat,Binaire ; mode ; constante retirée dans chaque apprentissage,False
+STDs: Number of diagnosis,Nombre de diagnostics d'IST,numérique,0,0.0,0.0,3.0,Prédicteur candidat,Numérique ; log1p,False
+STDs: Time since first diagnosis,Délai depuis le premier diagnostic d'IST ; unité non explicitée par la fiche,numérique,787,91.72494172494171,1.0,22.0,Exclue,Très incomplet ; sens ambigu sans diagnostic,False
+STDs: Time since last diagnosis,Délai depuis le dernier diagnostic d'IST ; unité non explicitée par la fiche,numérique,787,91.72494172494171,1.0,22.0,Exclue,Très incomplet ; sens ambigu sans diagnostic,False
+Dx:Cancer,Diagnostic de cancer enregistré ; chronologie insuffisamment documentée,binaire,0,0.0,0.0,1.0,Exclue,Chronologie du diagnostic non garantie,False
+Dx:CIN,Diagnostic de néoplasie intraépithéliale cervicale enregistré ; stade non fourni,binaire,0,0.0,0.0,1.0,Exclue,Chronologie du diagnostic non garantie,False
+Dx:HPV,Diagnostic d'HPV enregistré ; différent du champ HPV du bloc IST,binaire,0,0.0,0.0,1.0,Exclue,Chronologie du diagnostic non garantie,False
+Dx,Indicateur de diagnostic dont la définition détaillée n'est pas fournie,binaire,0,0.0,0.0,1.0,Exclue,Chronologie du diagnostic non garantie,False
+Hinselmann,Résultat binaire de l'examen de Hinselmann,binaire,0,0.0,0.0,1.0,Exclue,Autre résultat d'examen,False
+Schiller,Résultat binaire de l'examen de Schiller,binaire,0,0.0,0.0,1.0,Exclue,Autre résultat d'examen,False
+Citology,"Résultat binaire de cytologie, orthographié Citology dans le CSV",binaire,0,0.0,0.0,1.0,Exclue,Autre résultat d'examen,False
+Biopsy,Résultat binaire de biopsie ; détail histologique non fourni,binaire,0,0.0,0.0,1.0,Cible unique,Cible,False

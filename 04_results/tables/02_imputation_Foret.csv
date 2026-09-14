@@ -1,0 +1,27 @@
+feature,imputed_value_model_space
+Age,26.0
+First sexual intercourse,17.0
+Number of sexual partners,1.0986122886681098
+Num of pregnancies,1.0986122886681098
+Smokes (years),0.0
+Smokes (packs/year),0.0
+Hormonal Contraceptives (years),0.4054651081081644
+IUD (years),0.0
+STDs (number),0.0
+STDs: Number of diagnosis,0.0
+Smokes,0.0
+Hormonal Contraceptives,1.0
+IUD,0.0
+STDs,0.0
+STDs:condylomatosis,0.0
+STDs:cervical condylomatosis,0.0
+STDs:vaginal condylomatosis,0.0
+STDs:vulvo-perineal condylomatosis,0.0
+STDs:syphilis,0.0
+STDs:pelvic inflammatory disease,0.0
+STDs:genital herpes,0.0
+STDs:molluscum contagiosum,0.0
+STDs:AIDS,0.0
+STDs:HIV,0.0
+STDs:Hepatitis B,0.0
+STDs:HPV,0.0

@@ -1,0 +1,29 @@
+feature,coefficient
+Age,0.17620323592295817
+First sexual intercourse,-0.052297260823181826
+Number of sexual partners,-0.1813433843533599
+Num of pregnancies,-0.06785518778309405
+Smokes (years),0.31198425505987826
+Smokes (packs/year),-0.05805219268813554
+Hormonal Contraceptives (years),0.2782461784734
+IUD (years),0.005882026721817113
+STDs (number),0.06936472782436046
+STDs: Number of diagnosis,0.13420616993420234
+Smokes,-0.4842351505022393
+Hormonal Contraceptives,-0.5405290235588225
+IUD,0.39927074973272214
+STDs,0.5971237095670084
+STDs:condylomatosis,-0.1254929231919754
+STDs:vaginal condylomatosis,-0.6054615628508901
+STDs:vulvo-perineal condylomatosis,-0.01958657629088804
+STDs:syphilis,-0.8201910300013422
+STDs:genital herpes,0.7524620173619524
+STDs:HIV,0.4328294265788104
+STDs:HPV,-0.29808005402868254
+missingindicator_Number of sexual partners,-0.08176013333537996
+missingindicator_First sexual intercourse,-0.18504080061161893
+missingindicator_Num of pregnancies,0.6894556037750343
+missingindicator_Smokes,0.09754370670767887
+missingindicator_Hormonal Contraceptives,-1.1113674329735541
+missingindicator_IUD,-0.04226491735838904
+missingindicator_STDs,-0.27706275079492454

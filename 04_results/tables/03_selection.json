@@ -1,0 +1,17 @@
+{
+  "k": 5,
+  "features": [
+    "Age",
+    "First sexual intercourse",
+    "Number of sexual partners",
+    "Num of pregnancies",
+    "Smokes (years)",
+    "Hormonal Contraceptives (years)",
+    "IUD (years)",
+    "STDs (number)"
+  ],
+  "minimum_cluster_fraction": 0.05,
+  "PCA_2D_variance": 0.41191698344807304,
+  "components_for_90pct": 7,
+  "ARI_subsamples_mean": 0.9536172539606852
+}
